@@ -1,0 +1,26 @@
+{
+  "uuid": "dbdd7060-73b9-4423-80d7-c2c0bba5105f",
+  "shortName": "Dickbutt",
+  "longName": "Dickbutt",
+  "companyName": "snare",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {},
+  "resources": {
+     "media": [
+      {
+        "type": "png-trans",
+        "name": "DICKBUTT",
+        "file": "images/dickbutt.png"
+      },
+      {
+        "type": "png-trans",
+        "name": "ARM",
+        "file": "images/arm.png"
+      }
+    ]
+  }
+}
