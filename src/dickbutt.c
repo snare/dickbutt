@@ -120,6 +120,9 @@ static void window_load(Window *window)
 static void window_unload(Window *window)
 {
     layer_destroy(bg_layer);
+    rot_bitmap_layer_destroy(arm_layer_black);
+    rot_bitmap_layer_destroy(arm_layer_white);
+    rot_bitmap_layer_destroy(dickbutt_layer);
 }
 
 
@@ -174,7 +177,8 @@ static void init()
 static void deinit(void)
 {
     gbitmap_destroy(dickbutt_bitmap);
-    rot_bitmap_layer_destroy(dickbutt_layer);
+    gbitmap_destroy(arm_bitmap_black);
+    gbitmap_destroy(arm_bitmap_white);
     window_destroy(window);
 }
 
